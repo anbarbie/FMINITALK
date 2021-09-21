@@ -16,7 +16,7 @@
 # include <unistd.h>
 # include <signal.h>
 # include <stdlib.h>
-# define BUFFER 1024
+# define BUFFER 64
 
 typedef struct s_buff
 {
