@@ -31,7 +31,7 @@ static	void	sig_handler(int signum, siginfo_t *info, void *context)
 {
 	static int				i = 0;
 	static unsigned char	tmp = 0;
-	static t_buff			s = {0};
+	static t_buff			s = {};
 
 	(void)context;
 	if (signum == SIGUSR2)
