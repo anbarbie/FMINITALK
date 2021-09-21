@@ -6,7 +6,7 @@
 /*   By: antbarbi <antbarbi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 17:35:02 by antbarbi          #+#    #+#             */
-/*   Updated: 2021/09/21 15:44:53 by antbarbi         ###   ########.fr       */
+/*   Updated: 2021/09/21 16:49:36 by antbarbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memset(void *s, int c, size_t n)
 {
-	unsigned char *str;
+	unsigned char	*str;
 
 	str = (unsigned char *)s;
 	while (n-- > 0)
